@@ -1,0 +1,19 @@
+Part 0
+     0.4 - 0.5:
+        Browser - Server --> POST https://studies.cs.helsinki.fi/exampleapp/new_note
+        Server - Browser --> HTML document
+    
+        Browser - Server --> GET https://studies.cs.helsinki.fi/exampleapp/main.css
+        Server - Browser --> CSS file
+    
+        Browser - Server --> GET https://studies.cs.helsinki.fi/exampleapp/main.js
+        Server - Browser --> JS file
+    
+        Browser - Server --> GET https://studies.cs.helsinki.fi/exampleapp/data.json
+        Server - Browser --> Notes in json format
+
+
+
+      0.6:
+        Browser - Server --> POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+        Data is not sent in a traditional way; The server detects the JS code and responds with what was requested. The format sent is JSON
